@@ -22,4 +22,3 @@ mas uma nota fiscal se refere a apenas um projeto. Os administrativos emitem as 
 ## Como foi desenvolvido
 - Todo código está comentado.
 - Foram adicionados javadocs para as principais funções, possibilitando a utilização dessa informações por meio de IDEs, facilitando o entendimento do código para outros desenvolvedores.
- 
