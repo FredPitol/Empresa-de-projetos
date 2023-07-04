@@ -37,6 +37,8 @@ public class Engenheiros extends Funcionarios{
      * objeto engenheiro como gerente dele 
      * @param departamento objeto departamento
      */
+
+    // Método construtor
     public void gerenciaDep(Departamento departamento){
         this.setDepartamento(departamento);
         this.getDepartamento().setGerente(this);

@@ -67,8 +67,8 @@ public class InOut {
 	}
 	
 	/**
-	 * Este metodo eh para entrada de um objeto do tipo short. Tem como parametro 
-	 * de entrada uma String que indicara para o usuario qual o dado que sera
+	 * Este metodo é para entrada de um objeto do tipo short. Tem como parâmetro 
+	 * de entrada uma String que indica para o usuario qual o dado que será
 	 * lido naquele momento por aquela caixa de texto. 
 	 * Le entao uma String e a converte para um objeto do tipo short. 
 	 * O processo so para quando a conversao for bem sucedida.  

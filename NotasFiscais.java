@@ -43,6 +43,14 @@ public class NotasFiscais {
    
     }
     
+    /**
+     * Sobrescrita de um método nativo do java alterando sua saída(Chave de acesso , 
+     * nome do projeto e valor)
+     */
+     @Override
+    public String toString() {
+        return "\nNotaFiscal:\nChaveAcesso: " + this.getChaveAcessso() + "\nprojeto: " + this.projeto.getNome() + "\nvalor: " + this.getValorProjeto();
+    }   
         
     // Métodos getters e setters 
     public String getChaveAcessso() {
@@ -97,11 +105,5 @@ public class NotasFiscais {
     }
     
     
-    @Override
-    public String toString() {
-        return "\nNotaFiscal:\nChaveAcesso: " + this.getChaveAcessso() + "\nprojeto: " + this.projeto.getNome() + "\nvalor: " + this.getValorProjeto();
-    }
-
-    
-     
+   
 }
